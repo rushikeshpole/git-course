@@ -3,8 +3,12 @@ const express = require('express')
 const app = express()
 const port = 4000
 
+<<<<<<< HEAD
 
-app.get('/main',(req,res)=>{
+app.get('/',(req,res)=>{
+=======
+app.get('/',(req,res)=>{
+>>>>>>> feature1
     res.send("Hello World!")
 })
 
